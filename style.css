@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    transform: translateY(450px);
+    border:none;
+    font-size: 50px;
+}
+
+button:focus {
+    border-bottom: 5px solid blue;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+}
